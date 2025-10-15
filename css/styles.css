@@ -1,0 +1,240 @@
+/* ==========================================
+   Box Model Fix (Global)
+   ========================================== */
+* {
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   Color Palette
+   Light Blue: #9ED2F0
+   Gray: #7D909B
+   Dark Blue: #213846
+   ========================================== */
+
+/* Global Styles */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #213846;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Navigation */
+.main-nav {
+    position: sticky;
+    top: 0;
+    background-color: #213846;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav a {
+    color: #9ED2F0;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #9ED2F0;
+    color: #213846;
+    border-radius: 5px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Content Wrapper */
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* ===============================
+   Header Section
+   =============================== */
+.header-section {
+    background-color: #9ED2F0;
+    color: #213846;
+    padding: 50px 0;
+    text-align: left;
+    margin: 0;
+    /* remove white space between sections */
+}
+
+header h1,
+header h2 {
+    margin: 0;
+}
+
+/* Columns */
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 67%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Work Experience specific columns */
+.we-column-narrow {
+    width: 28%;
+    /* slightly smaller to allow more space for right column */
+    float: left;
+    padding-right: 3%;
+    /* gap between columns */
+    min-height: 175px;
+}
+
+.we-column-wide {
+    width: 67%;
+    /* adjust as needed */
+    float: left;
+    min-height: 225px;
+}
+
+/* Profile Image */
+.profile-img {
+    display: block;
+    width: 100%;
+    /* fill the 30% column */
+    height: auto;
+    border-radius: 50%;
+    margin: 0;
+}
+
+/* ===============================
+   Work Experience Section
+   =============================== */
+.work-experience {
+    background-color: #7D909B;
+    color: #F5F5F5;
+    padding: 50px 0;
+    margin: 0;
+    /* remove white space between sections */
+    border-radius: 8px;
+}
+
+/* Work Experience Flexbox layout */
+.work-experience .job-row {
+    display: flex;
+    gap: 30px;
+    /* space between columns */
+    align-items: flex-start;
+    margin-bottom: 30px;
+    /* spacing between jobs */
+}
+
+.work-experience .job-row .column-narrow {
+    flex: 0 0 35%;
+    /* fixed width for left column */
+}
+
+.work-experience .job-row .column-wide {
+    flex: 1;
+    /* take remaining space for summary text */
+}
+
+
+/* ===============================
+   Education Section
+   =============================== */
+.education {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),
+        /* light overlay */
+        url('../images/csu-northridge.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* <-- makes the image stay while scrolling, added after class on 10/14/2025*/
+    color: #213846;
+    padding: 50px 0;
+    margin: 0;
+    /* remove white space between sections */
+    border-radius: 8px;
+}
+
+
+/* ===============================
+   Footer Section
+   =============================== */
+.footer-section {
+    background-color: #213846;
+    color: #9ED2F0;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0;
+    /* remove white space between sections */
+}
+
+/* Footer Contact Info */
+.contact-info {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    color: #9ED2F0;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info a i {
+    margin-right: 8px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* General Links */
+a {
+    color: #213846;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
