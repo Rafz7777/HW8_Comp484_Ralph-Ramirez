@@ -10,6 +10,7 @@
    Light Blue: #9ED2F0
    Gray: #7D909B
    Dark Blue: #213846
+   Warm Orange: #f89a56
    ========================================== */
 
 /* Global Styles */
@@ -33,7 +34,7 @@ body {
 }
 
 .main-nav a {
-    color: #9ED2F0;
+    color: #f89a56;
     text-decoration: none;
     font-weight: 700;
     margin: 0 20px;
@@ -42,7 +43,7 @@ body {
 }
 
 .main-nav a:hover {
-    background-color: #9ED2F0;
+    background-color: #f89a56;
     color: #213846;
     border-radius: 5px;
 }
@@ -164,8 +165,11 @@ header h2 {
    =============================== */
 .education {
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),    /* light overlay */
-        url('../images/csu-northridge.jpg');
+    linear-gradient(
+        rgba(158, 210, 240, 0.9),
+        rgba(158, 210, 240, 0.6)
+    ),
+    url('../images/csu-northridge.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +200,7 @@ header h2 {
 .contact-info a {
     padding: 10px;
     display: inline-block;
-    color: #9ED2F0;
+    color: #f89a56;
     text-decoration: none;
     font-weight: 700;
 }
