@@ -180,7 +180,7 @@ header h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* <-- makes the image stay while scrolling, added after class on 10/14/2025*/
+    /* <-- makes the image stay while scrolling*/
     color: #213846;
     padding: 50px 0;
     margin: 0;
