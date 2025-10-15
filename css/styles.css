@@ -110,17 +110,14 @@ header h2 {
 
 /* Work Experience specific columns */
 .we-column-narrow {
-    width: 28%;
-    /* slightly smaller to allow more space for right column */
+    width: 28%;    /* slightly smaller to allow more space for right column */
     float: left;
-    padding-right: 3%;
-    /* gap between columns */
+    padding-right: 3%;    /* gap between columns */
     min-height: 175px;
 }
 
 .we-column-wide {
-    width: 67%;
-    /* adjust as needed */
+    width: 67%;   /* adjust as needed */
     float: left;
     min-height: 225px;
 }
@@ -128,8 +125,7 @@ header h2 {
 /* Profile Image */
 .profile-img {
     display: block;
-    width: 100%;
-    /* fill the 30% column */
+    width: 100%;    /* fill the 30% column */
     height: auto;
     border-radius: 50%;
     margin: 0;
@@ -142,29 +138,24 @@ header h2 {
     background-color: #7D909B;
     color: #F5F5F5;
     padding: 50px 0;
-    margin: 0;
-    /* remove white space between sections */
+    margin: 0;    /* remove white space between sections */
     border-radius: 8px;
 }
 
 /* Work Experience Flexbox layout */
 .work-experience .job-row {
     display: flex;
-    gap: 30px;
-    /* space between columns */
+    gap: 30px;    /* space between columns */
     align-items: flex-start;
-    margin-bottom: 30px;
-    /* spacing between jobs */
+    margin-bottom: 30px;    /* spacing between jobs */
 }
 
 .work-experience .job-row .column-narrow {
-    flex: 0 0 35%;
-    /* fixed width for left column */
+    flex: 0 0 35%;    /* fixed width for left column */
 }
 
 .work-experience .job-row .column-wide {
-    flex: 1;
-    /* take remaining space for summary text */
+    flex: 1;    /* take remaining space for summary text */
 }
 
 
@@ -173,18 +164,15 @@ header h2 {
    =============================== */
 .education {
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),
-        /* light overlay */
+        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),    /* light overlay */
         url('../images/csu-northridge.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* <-- makes the image stay while scrolling*/
+    background-attachment: fixed;/* <-- makes the image stay while scrolling*/
     color: #213846;
     padding: 50px 0;
-    margin: 0;
-    /* remove white space between sections */
+    margin: 0;   /* remove white space between sections */
     border-radius: 8px;
 }
 
@@ -197,8 +185,7 @@ header h2 {
     color: #9ED2F0;
     padding: 50px 0;
     text-align: center;
-    margin: 0;
-    /* remove white space between sections */
+    margin: 0;    /* remove white space between sections */
 }
 
 /* Footer Contact Info */
